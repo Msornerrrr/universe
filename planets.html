@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Hao Jiang | Final Project Planets </title>
+<link rel="stylesheet" href="stylesheet.css">
+	<meta name="description" content="Intro to Several Planets">
+	<meta name="keywords" content="Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune">
+	<meta name="author" content="Hao Jiang">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+hr{
+	margin: 0px;
+}
+
+#content{
+	width: 900px;
+	margin: 120px auto 0px auto;
+}
+
+#content > div{
+	height: 400px;
+	transition: all 1s;
+	margin: 40px 0px;
+	opacity: 0.5;
+}
+
+#content > div:hover{
+	transform: scale(1.2);
+	opacity: 1;
+}
+
+.planet-container{
+	height: 400px;
+	width: 300px;
+	border-right: 1px solid white;
+	float: left;
+}
+
+.planet-container p{
+	margin: 0px 5px;
+}
+
+.planets{
+	height: 300px;
+	margin: 0px;
+}
+
+.satellites{
+	height: 71px;
+	margin-right: 20px;
+	transition: all 1s;
+}
+
+.satellites:hover{
+	transform: translate(0px, -150px) scale(3.5);
+}
+
+.text-container{
+	width: 538px;
+	float: left;
+	padding: 0px 30px;
+}
+
+#mercury{
+	background-color: #444444;
+}
+
+#venus{
+	background-color: #cb902c;
+}
+
+#earth{
+	background-color: #004d1a;
+}
+
+#mars{
+	background-color: #994d00;
+}
+
+#jupiter{
+	background-color: #805500;
+}
+
+#saturn{
+	background-color: #4c4535;
+}
+/* override saturn */
+#saturn .planet-container{
+	height: 400px;
+	width: 455px;
+}
+
+#saturn .text-container{
+	width: 383px;
+}
+
+#uranus{
+	background-color: #2c685e;
+}
+
+#neptune{
+	background-color: #1a1e4b;
+}
+
+</style>
+</head>
+<body>
+
+<!-- header -->
+<div id="header">
+	<a href="alien/alien-2.html"> <img id="logo" src="img/logo.png" alt="Universe Logo"> </a>
+	<div id="nav">
+	<a href="index.html"> Solar System </a>
+	<a href="planets.html"> Planets & Satellites </a>
+	<a href="universe.html"> Galaxies & Universe </a>
+	</div>
+</div>
+
+<!-- content -->
+<div id="content">
+	<div id="mercury">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/mercury.png" alt="Mercury">
+			<p> Satellites: 0</p>
+			<hr>
+			<img class="satellites" src="img/satellites/no-satellite.png" alt="No Satellites">
+		</div>
+		<div class="text-container">
+			<h2> Mercury </h2>
+			<hr>
+			<p> The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon. </p>
+			<p> From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system – that title belongs to nearby Venus, thanks to its dense atmosphere. </p>
+			<p> Because of Mercury's elliptical – egg-shaped – orbit, and sluggish rotation, the Sun appears to rise briefly, set, and rise again from some parts of the planet's surface. The same thing happens in reverse at sunset. </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="venus">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/venus.png" alt="Venus">
+			<p> Satellites: 0</p>
+			<hr>
+			<img class="satellites" src="img/satellites/no-satellite.png" alt="No Satellites">
+		</div>
+		<div class="text-container">
+			<h2> Venus </h2>
+			<hr>
+			<p> Venus is the second planet from the Sun and is Earth’s closest planetary neighbor. It’s one of the four inner, terrestrial (or rocky) planets, and it’s often called Earth’s twin because it’s similar in size and density. These are not identical twins, however – there are radical differences between the two worlds. </p>
+			<p> Venus has a thick, toxic atmosphere filled with carbon dioxide and it’s perpetually shrouded in thick, yellowish clouds of sulfuric acid that trap heat, causing a runaway greenhouse effect. It’s the hottest planet in our solar system, even though Mercury is closer to the Sun. Surface temperatures on Venus are about 900 degrees Fahrenheit (475 degrees Celsius) – hot enough to melt lead. The surface is a rusty color and it’s peppered with intensely crunched mountains and thousands of large volcanoes. Scientists think it’s possible some volcanoes are still active. </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="earth">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/earth.png" alt="Earth">
+			<p> Satellites: 1 (try hover over the moon) </p>
+			<hr>
+			<img class="satellites" src="img/satellites/earth-1.png" alt="Moon">
+		</div>
+		<div class="text-container">
+			<h2> Earth </h2>
+			<hr>
+			<p> Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. </p>
+			<p> While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water on the surface. Just slightly larger than nearby Venus, Earth is the biggest of the four planets closest to the Sun, all of which are made of rock and metal. </p>
+			<p> The name Earth is at least 1,000 years old. All of the planets, except for Earth, were named after Greek and Roman gods and goddesses. However, the name Earth is a Germanic word, which simply means “the ground.” </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="mars">
+		<div class="planet-container">
+			<a href="alien/alien-3.html"> <img class="planets" src="img/planets/mars.png" alt="Mars"> </a>
+			<p> Satellites: 2</p>
+			<hr>
+			<img class="satellites" src="img/satellites/mars-1.png" alt="First Satellite">
+			<img class="satellites" src="img/satellites/mars-2.png" alt="Second Satellite">
+		</div>
+		<div class="text-container">
+			<h2> Mars </h2>
+			<hr>
+			<p> Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet". The latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance (as shown), that is distinctive among the astronomical bodies visible to the naked eye. Mars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth. </p>
+			<p> Are there aliens on Mars? </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="jupiter">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/jupiter.png" alt="Jupiter">
+			<p> Satellites: 79</p>
+			<hr>
+			<img class="satellites" src="img/satellites/jupiter-1.png" alt="First Satellite">
+			<a href="alien/alien-4.html"> <img class="satellites" src="img/satellites/jupiter-2.png" alt="Second Satellite"> </a>
+			<img class="satellites" src="img/satellites/jupiter-3.png" alt="Third Satellite">
+		</div>
+		<div class="text-container">
+			<h2> Jupiter </h2>
+			<hr>
+			<p> Jupiter has a long history of surprising scientists – all the way back to 1610 when Galileo Galilei found the first moons beyond Earth. That discovery changed the way we see the universe. </p>
+			<p> Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. </p>
+			<p> Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years. </p>
+			<p> (One of the satellites of Jupiter may contains Alien!) </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="saturn">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/saturn.png" alt="Saturn">
+			<p> Satellites: 82</p>
+			<hr>
+			<img class="satellites" src="img/satellites/saturn-6.png" alt="Sixth Satellites">
+			<img class="satellites" src="img/satellites/saturn-2.png" alt="Second Satellites">
+		</div>
+		<div class="text-container">
+			<h2> Saturn </h2>
+			<hr>
+			<p> Saturn is the sixth planet from the Sun and the second-largest planet in our solar system. </p>
+			<p> Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings – made of chunks of ice and rock – but none are as spectacular or as complicated as Saturn's. </p>
+			<p> Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. (Saturn has a density less than water) </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="uranus">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/uranus.png" alt="Uranus">
+			<p> Satellites: 27</p>
+			<hr>
+			<img class="satellites" src="img/satellites/uranus-2.png" alt="Second Satellite">
+		</div>
+		<div class="text-container">
+			<h2> Uranus </h2>
+			<hr>
+			<p> Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. </p>
+			<p> It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead, the scientific community accepted Bode's suggestion to name it Uranus, the Greek god of the sky, as suggested by Bode. </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+
+	<div id="neptune">
+		<div class="planet-container">
+			<img class="planets" src="img/planets/neptune.png" alt="Neptune">
+			<p> Satellites: 14</p>
+			<hr>
+			<img class="satellites" src="img/satellites/neptune-1.png" alt="First Satellite">
+		</div>
+		<div class="text-container">
+			<h2> Neptune </h2>
+			<hr>
+			<p> Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. </p>
+			<p> More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and the first predicted by mathematics before its discovery. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. </p>
+			<p> Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune. </p>
+		</div>
+		<div class="breakfloat"></div>
+	</div>
+</div>
+
+<!-- footer -->
+<div id="footer">
+	<p> <a href="alien/alien-1.html"> There are 5 Hidden Aliens in the Website! 👽 </a> </p>
+</div>
+
+</body>
+</html>
